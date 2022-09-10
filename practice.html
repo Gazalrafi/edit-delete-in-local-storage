@@ -47,9 +47,9 @@
         name:name,
         email:email
      };
-     localStorage.setItem("userDetails",JSON.stringify(userDetails));
-      let details=localStorage.getItem("userDetails");
-       console.log(JSON.parse(details))
+     localStorage.setItem(userDetails.email,JSON.stringify(userDetails));//store the multiple users data in local storage
+    //   let details=localStorage.getItem("userDetails");
+    //    console.log(JSON.parse(details))
     }
     </script>
   </body>
